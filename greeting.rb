@@ -1,5 +1,6 @@
 def greeting (name) #メソッド名(引数)は任意
-"Hello, #{name}!"
+return "Hello, #{name}!"
+"Good morning, #{name}"
 end
 
 puts greeting ('kuro')
